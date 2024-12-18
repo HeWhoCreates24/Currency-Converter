@@ -7,18 +7,21 @@
     --c2 : #92DCE5;
     --c3 : #197BBD;
     --c4 : #001011;
+    --height : max(100vh, 600px);
+    --width : max(100vw, 400px)
 }
 body{
     background-color: var(--c2);
-    height: 100vh;
+    height: var(--height);
+    width: var(--width);
     display: flex;
     justify-content: center;
     align-items: start;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .container{
-    height: 60vh;
-    width: 60vh;
+    height: calc(0.6*var(--height));
+    width: calc(0.6*var(--height));
     background-color: var(--c3);
     border-radius: 1rem;
     margin: 2rem;
