@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --c1 : #fcecff;
+    --c2 : #92DCE5;
+    --c3 : #197BBD;
+    --c4 : #001011;
+}
+body{
+    background-color: var(--c2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    height: 60vh;
+    width: 60vh;
+    background-color: var(--c3);
+    border-radius: 1rem;
+    margin: 2rem;
+    margin-top: 15vh;
+    transition: scale 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container:hover{
+    scale: 1.1;
+}
+.title{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--c4);
+    background-color: var(--c1);
+    line-height: 2.7rem;
+    padding: 0 1rem 0 1rem;
+    border-radius: 1rem;
+    cursor: default;
+    /* border: 3px solid var(--c4); */
+}
+.form{
+    height: 70%;
+    width: 80%;
+    background-color: var(--c2);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+input{
+    background-color: var(--c1);
+    outline-style: none;
+    height: 1.7rem;
+    width: 80%;
+    color: var(--c4);
+    border-radius: 1rem;
+    border: 3px solid var(--c4);
+    padding: 0.5rem 0 0.5rem 1rem;
+}
+.selector{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.c1, .c2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.selector div p{
+    color: var(--c4);
+    font-weight: 800;
+}
+.drpdiv{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    scale: 0.8;
+    margin: 5px 0 5px 0;
+}
+select{
+    background-color: var(--c1);
+    outline: var(--c4);
+    height: 1.95rem;
+    margin-left: -7.5px;
+    color: var(--c4);
+    font-size: 0.7rem;
+}
+i{
+    font-size: 1.5rem;
+    color: var(--c4);
+}
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 2rem;
+    width: 80%;
+    border-radius: 1rem;
+    color: var(--c1);
+    background-color: var(--c3);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.answer{
+    height: 15%;
+    width: 80%;
+    border-radius: 1rem;
+    background-color: var(--c1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

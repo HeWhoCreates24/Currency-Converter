@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container" class="border">
+        <div class="title" class="border">Currency Converter</div>
+        <form class="form" class="border">
+            <input class="amount" type="text" placeholder="1">
+            <div class="selector">
+                <div class="c1">
+                    <p>FROM</p>
+                    <div class="drpdiv">
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <select id="from"></select>
+                    </div>
+                </div>
+                <i class="fa fa-exchange" aria-hidden="true"></i>
+                <div class="c2">
+                    <p>TO</p>
+                    <div class="drpdiv">
+                        <img src="https://flagsapi.com/IN/flat/64.png">
+                        <select id="to"></select>
+                    </div>
+                </div>
+            </div>
+            <button>CONVERT</button>
+            <div class="answer">@tanmayhatkar240</div>
+        </form>
+    </div>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
